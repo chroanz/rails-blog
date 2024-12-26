@@ -26,10 +26,13 @@ Before you begin, make sure you have:
 3. Install the dependencies:
     bundle install
 
-4. Start the local server:
+4. Run migrations by using:
+    rails db:migrate
+
+5. Start the local server:
     rails server
 
-5. Open your browser and access:
+6. Open your browser and access:
     http://localhost:3000
 
 ## Features
