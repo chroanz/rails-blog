@@ -1,19 +1,41 @@
-# README
+# Blog App
 
-Welcome! This is my blog app.
+Welcome to the Blog App!  
 
-To make everything work fine you'll need ruby installed in your machine and connection to the internet.
+This is a simple blog application built with Ruby on Rails. Follow the steps below to set up and run the project on your machine.  
 
-I'm using Ruby on Rails 8.0.1 and some dependencies which you may install during the step by step guide.
+## Prerequisites  
 
-First of all, clone this repository or just download it.
+Before you begin, make sure you have:  
+- **Ruby** installed on your machine.  
+- An active internet connection to install dependencies and run the project.  
 
-Open the blog folder and run bundle install, it will download and install all of the dependencies for you.
+## Technologies  
 
-Run rails server and the Puma serve will start.
+- **Ruby on Rails:** Version 8.0.1  
+- **Dependencies:** Automatically installed during setup (see steps below).  
 
-Access http://localhost:3000 to get in the homepage of the app.
+## Getting Started  
 
-You'll se some posts, you can click on "See more..." to open the post and read the comments.
+1. Clone this repository:  
+    git clone https://github.com/chroanz/rails-blog.git
 
-To create a new post you need to sign up, feel free to try it by yourself!
+2. Navigate to the project directory:
+    cd rails-blog
+
+3. Install the dependencies:
+    bundle install
+
+4. Start the local server:
+    rails server
+
+5. Open your browser and access:
+    http://localhost:3000
+
+## Features
+    View posts: The homepage displays a list of posts. Click "See more..." to view details and comments.
+
+    Create new posts: To create a new post, you need to sign up. Feel free to explore this feature!
+    
+## Contributing
+    Contributions are welcome! Feel free to open an issue or submit a pull request with improvements.
