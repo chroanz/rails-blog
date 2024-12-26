@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Posts" %>
+
+<h1>Posts</h1>
+
+<div id="posts" style="display: flex; flex-direction: column; width: 100%; align-items: center;">
+  <% @posts.each do |post| %>
+    <div class="post" style="width: clamp(300px, 100%, 1200px); margin: 1rem; padding: 1rem; border: 1px solid black;">
+      <%= render post %>
+    <p>
+      <%= link_to "See more...", post %>
+    </p>
+    </div>
+  <% end %>
+</div>
